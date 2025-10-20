@@ -1,0 +1,113 @@
+header{
+    background-color: rgb(18, 154, 192);
+    width: 100%;
+    height: 60PX;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom-left-radius: 25PX;
+
+
+    
+}
+body
+{margin: 0;
+ padding: 80px;
+}
+
+nav
+{
+    background-color: aquamarine;
+    width: 45%;
+    height: 60PX;
+    top: 0;;
+    left: 55%;
+    gap: 20px;
+    display: flex;
+
+    position: fixed;
+    border-radius: 25PX;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+    
+
+ul
+{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 10PX;
+    gap: 5PX;
+    font-weight: bold;
+    font-size: 20PX;
+    
+}
+
+li a
+{
+    text-decoration: none;
+    color: greenyellow;
+    background-color: rgb(18, 154, 192);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+li a:hover
+{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(24, 1, 27, 0.527);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+     transition: all 0.3s ease;
+    
+}
+
+
+.buscador{
+    position: absolute;
+    
+    left: 36%;
+    width: 20;
+    height: 30PX;
+    
+    align-items: center;
+    justify-content: center;
+    padding-left: 10PX;
+    font-size: 16PX;
+    padding: 5PX;
+    color: #070707;
+    border-radius: 25px;
+   
+}
+
+h1{
+    color: darkgreen;
+    margin-left: 10PX;
+    font-family: 'montserrat', sans-serif;
+    font-size: 30PX;
+    font-weight: bold;
+}
+
+.activo
+{
+    text-decoration: none;
+    color: rgb(11, 11, 10);
+    background-color: rgb(192, 18, 18);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
