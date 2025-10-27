@@ -94,7 +94,7 @@ li a:hover
 
 h1{
     color: darkgreen;
-    margin-left: 10PX;
+    margin-left: 20PX;
     font-family: 'montserrat', sans-serif;
     font-size: 30PX;
     font-weight: bold;
@@ -112,3 +112,27 @@ h1{
     
 }
     
+
+.logo{
+
+    width: 0%;
+    height: 50PX;
+     top: 0;;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5PX;
+    margin: 0%;
+    gap: 20px;
+    left: 40PX;
+    
+    border-bottom-right-radius: 25PX;
+
+}
+
+.logotm{
+    width: 110PX;
+    height: 110PX;
+    
+}
