@@ -17,6 +17,7 @@ body
  padding: 80px;
  display: flex;
  gap: 20px;
+ 
 }
 
 nav
@@ -127,19 +128,25 @@ h1{
     margin: 0%;
     gap: 20px;
     left: 40PX;
-    
     border-bottom-right-radius: 25PX;
 
 }
 
-.logotm{
+.logotm
+
+{
     width: 110PX;
     height: 110PX;
     
+    
 }
 
-.articulos{
+.articulos
+{   
+    display: flex;
+    flex-direction: column;
     width: 80%;
+    gap: 30PX;
     
 }
 
@@ -173,6 +180,26 @@ h1{
     justify-content: left;
 }
 
-.negrita{
+.negrita
+{
     font-weight: bold;
+}
+
+.subtitulo
+{
+    font-family: 'montserrat', sans-serif;
+    font-size: 20PX;
+    font-weight: bold;
+    margin: 10PX;
+}
+
+.articulo1
+{padding: 20PX;
+    background-color: lightgreen;
+}
+
+.articulo2
+{padding: 20PX;
+    background-color: lightyellow;
+    gap: 30PX;
 }
