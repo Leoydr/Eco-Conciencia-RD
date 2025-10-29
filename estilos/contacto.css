@@ -134,3 +134,23 @@ h1{
     height: 110PX;
     
 }
+
+.mapa{
+    width: 80%;
+    height: 1000PX;
+}
+
+.titulo{
+    font-family: 'montserrat', sans-serif;
+    font-size: 25PX;
+    font-weight: bold;
+    margin: 10PX;
+}
+
+.subtitulo
+{
+    font-family: 'montserrat', sans-serif;
+    font-size: 20PX;
+    font-weight: bold;
+    margin: 10PX;
+}

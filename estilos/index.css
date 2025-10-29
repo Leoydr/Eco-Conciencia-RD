@@ -133,6 +133,33 @@ h1{
 
 .logotm{
     width: 110PX;
-    height: 110PX;
+    height: 110PX;    
     
 }
+
+.contenedor{
+   display: flex;  
+}
+
+.titulo{
+    font-family: 'montserrat', sans-serif;
+    font-size: 25xp;
+    font-weight: bold;
+    margin: 10px;
+
+}
+ 
+.parrafo{
+    font-family: 'montserrat', sans-serif; 
+    font-size: 16px;
+    margin: 10px;
+    justify-content: left;
+    
+}
+.subtitulo{
+     font-family: 'montserrat', sans-serif;
+    font-size: 20PX;
+    font-weight: bold;
+    margin: 10PX;
+}
+

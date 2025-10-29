@@ -8,17 +8,14 @@ header{
     align-items: center;
     gap: 10px;
     border-bottom-left-radius: 25PX;
+ }
 
-
-    
-}
-body
-{margin: 0;
- padding: 80px;
+body{
+    margin: 0;
+    padding: 80px;
 }
 
-nav
-{
+nav{
     background-color: aquamarine;
     width: 45%;
     height: 60PX;
@@ -26,7 +23,6 @@ nav
     left: 55%;
     gap: 20px;
     display: flex;
-
     position: fixed;
     border-radius: 25PX;
     align-items: center;
@@ -37,8 +33,7 @@ nav
 }
     
 
-ul
-{
+ul{
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -46,11 +41,9 @@ ul
     gap: 5PX;
     font-weight: bold;
     font-size: 20PX;
-    
 }
 
-li a
-{
+li a{
     text-decoration: none;
     color: greenyellow;
     background-color: rgb(18, 154, 192);
@@ -58,11 +51,9 @@ li a
     padding: 15px;
     font-size: 20px;
     font-weight: bold;
-    
 }
 
-li a:hover
-{
+li a:hover{
     text-decoration: none;
     color: whitesmoke;
     background-color: rgba(24, 1, 27, 0.527);
@@ -70,18 +61,14 @@ li a:hover
     padding: 15px;
     font-size: 20px;
     font-weight: bold;
-     transition: all 0.3s ease;
-    
-}
-
+    transition: all 0.3s ease;
+    }
 
 .buscador{
     position: absolute;
-    
     left: 36%;
     width: 20;
     height: 30PX;
-    
     align-items: center;
     justify-content: center;
     padding-left: 10PX;
@@ -89,19 +76,17 @@ li a:hover
     padding: 5PX;
     color: #070707;
     border-radius: 25px;
-   
 }
 
 h1{
     color: darkgreen;
-    margin-left: 20PX;
+    margin-left: 10PX;
     font-family: 'montserrat', sans-serif;
     font-size: 30PX;
     font-weight: bold;
 }
 
-.activo
-{
+.activo{
     text-decoration: none;
     color: rgb(11, 11, 10);
     background-color: rgb(192, 18, 18);
@@ -109,7 +94,6 @@ h1{
     padding: 15px;
     font-size: 20px;
     font-weight: bold;
-    
 }
 .logo{
 
@@ -124,13 +108,36 @@ h1{
     margin: 0%;
     gap: 20px;
     left: 40PX;
-    
     border-bottom-right-radius: 25PX;
 
 }
 
-.logotm{
+.logotm
+
+{
     width: 110PX;
     height: 110PX;
     
+    
+}
+
+.titulo centrado{
+    font-family: 'montserrat', sans-serif;
+    font-size: 25PX;
+    font-weight: bold;
+    margin: 0PX;
+}
+
+.subtitulo centrado{
+    font-family: 'montserrat', sans-serif;
+    font-size: 20PX;
+    font-weight: bold;
+    margin: 0PX;
+}
+
+.parrafo centrado{
+    font-family: 'montserrat', sans-serif;
+    font-size: 16PX;
+    margin: 0PX;
+    justify-content: left;
 }

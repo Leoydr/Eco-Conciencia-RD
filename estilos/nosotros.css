@@ -134,3 +134,22 @@ h1{
     height: 110PX;
     
 }
+.titulo{
+    font-family: 'montserrat', sans-serif;
+    font-size: 25PX;
+    font-weight: bold;
+    margin: 10PX;
+}
+.parrafo{
+    font-family: 'montserrat', sans-serif;
+    font-size: 16PX;
+    margin: 10PX;
+    justify-content: left;
+}
+.subtitulo
+{
+    font-family: 'montserrat', sans-serif;
+    font-size: 20PX;
+    font-weight: bold;
+    margin: 10PX;
+}

@@ -26,7 +26,61 @@
             </nav>
         </header>
 
-        <p> “Esta es la sección Foro”</p>
+         <main>
+    <form class="formulario" action="#" method="post">
+      <label for="nombre">Nombre completo:</label>
+      <input class="imput" type="text" id="nombre" name="nombre" placeholder="Ej: María López" required>
+
+      <label for="usuario">Nombre de usuario:</label>
+      <input class="imput" type="text" id="usuario" name="usuario" placeholder="Ej: EcoMaria23" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input class="imput" type="email" id="correo" name="correo" placeholder="Ej: ejemplo@gmail.com" required>
+
+      <label for="confirmar-correo">Confirmar correo electrónico:</label>
+      <input class="imput" type="email" id="confirmar-correo" name="confirmar-correo" required>
+
+      <label for="password">Contraseña:</label>
+      <input class="imput" type="password" id="password" name="password" placeholder="Mínimo 8 caracteres" required>
+
+      <label for="confirmar-password">Confirmar contraseña:</label>
+      <input class="imput" type="password" id="confirmar-password" name="confirmar-password" required>
+
+      <label for="provincia">Provincia:</label>
+      <select id="provincia" name="provincia" required>
+        <option value="">Seleccione una provincia</option>
+        <option value="Santo Domingo">Santo Domingo</option>
+        <option value="Santiago">Santiago</option>
+        <option value="La Vega">La Vega</option>
+        <option value="Puerto Plata">Puerto Plata</option>
+        <option value="San Cristóbal">San Cristóbal</option>
+        <option value="Monte Plata">Monte Plata</option>
+        <option value="La Romana">La Romana</option>
+        <option value="La Altagracia">La Altagracia</option>
+        <option value="Otra">Otra</option>
+      </select>
+
+      <label>Temas ambientales de interés:</label>
+      <div class="checkbox-grupo">
+        <label><input type="checkbox" name="temas" value="reciclaje"> Reciclaje</label>
+        <label><input type="checkbox" name="temas" value="conservacion"> Conservación</label>
+        <label><input type="checkbox" name="temas" value="educacion"> Educación ambiental</label>
+        <label><input type="checkbox" name="temas" value="energias"> Energías limpias</label>
+      </div>
+
+      <label for="foto">Subir foto de perfil (opcional):</label>
+      <input type="file" id="foto" name="foto" accept="image/*">
+
+      <div class="terminos">
+        <input type="checkbox" id="terminos" required>
+        <label for="terminos">Acepto los <a href="#">términos y condiciones</a></label>
+      </div>
+
+      <button type="submit">Registrarme</button>
+    </form>
+  </main>
+
+
     </body>
 
 </html>

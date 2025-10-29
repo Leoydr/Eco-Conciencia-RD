@@ -134,3 +134,78 @@ h1{
     height: 110PX;
     
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-image: url('../imagenes/rd.jpg');
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-position: center;   
+}
+
+.formulario {
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.imput
+ {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #2e7d32;
+  box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+}
+
+.checkbox-grupo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.terminos {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 25px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+a {
+  color: #2e7d32;
+  text-decoration: none;
+}
